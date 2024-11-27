@@ -1,7 +1,6 @@
 # Task Tracker CLI  
 
 Task Tracker is a simple command-line interface (CLI) application to help you manage and track tasks. You can add tasks, update them, delete tasks, and mark their progress. Tasks are stored in a `tasks.json` file in the current directory for persistence.
-
 ---
 
 ## Features  
@@ -13,7 +12,6 @@ Task Tracker is a simple command-line interface (CLI) application to help you ma
 - **List Tasks**: View all tasks or filter tasks by their status (`todo`, `in-progress`, `done`).
 - **Persist Data**: Task data is stored in a JSON file for easy reuse.
 - **Error Handling**: Gracefully handles invalid inputs and edge cases.
-
 ---
 
 ## Installation  
@@ -29,7 +27,6 @@ Task Tracker is a simple command-line interface (CLI) application to help you ma
    ```bash
    python tracker.py
    ```
-
 ---
 
 ## Usage  
@@ -59,7 +56,7 @@ python tracker.py add "Task description"
 ```  
 Example:  
 ```bash
-python tracker.py add "Buy groceries"
+python tracker.py add "Buy color"
 ```  
 Output:  
 ```
@@ -72,7 +69,7 @@ python tracker.py update <task_id> "Updated description"
 ```  
 Example:  
 ```bash
-python tracker.py update 1 "Buy groceries and cook dinner"
+python tracker.py update 1 "Buy ram and cook dinner"
 ```  
 Output:  
 ```
@@ -164,13 +161,11 @@ Each task has the following properties stored in the JSON file:
 - **Empty or Invalid JSON File**: Automatically initializes a new JSON file.  
 - **Invalid Task ID**: Prompts the user that the task ID does not exist.  
 - **Invalid Command**: Displays usage instructions for invalid commands or arguments.
-
 ---
 
 ## Contribution  
 
 Feel free to contribute to this project by submitting a pull request or raising an issue.  
-
 ---
 
 ## License  
@@ -178,6 +173,5 @@ Feel free to contribute to this project by submitting a pull request or raising 
 This project is licensed under the MIT License.  
 
 --- 
-
 Enjoy managing your tasks with Task Tracker CLI! 🎉  
 
